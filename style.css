@@ -142,7 +142,7 @@ section .title::after{
 }
 
 .about .title::after{
-    content: "who i am";
+    content: "who I am";
 }
 .about .about-content, .projects .proj-content, .contact .contact-content{
     display: flex;
@@ -168,7 +168,6 @@ section .title::after{
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 10px;
-
 }
 .about .about-content .right .text span{
   color: coral;
@@ -187,7 +186,7 @@ section .title::after{
 }
 .projects .title::after{
     background: #111;
-    content: "what i can do";
+    content: "what I can do";
 }
 .projects .proj-content .card{
     width: calc(33% - 20px);
@@ -382,5 +381,8 @@ footer span a:hover{
 .home .home-content .text-3 {
     font-size: 27px;
     }
+    .about .about-content .right .text{
+    text-align: center;
+}
 }
 
