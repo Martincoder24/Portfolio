@@ -175,6 +175,22 @@ section .title::after{
 .about .about-content .right .text{
     text-align: justify;
 }
+.about .about-content .right a{
+    display: inline-block;
+    background: coral;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid coral;
+    transition: all 0.3s ease;
+}
+.about .about-content .right a:hover{
+    color: coral;
+    background: none;
+}
 
 /* projects section styling*/
 .projects {
